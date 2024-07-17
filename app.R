@@ -128,7 +128,7 @@ server <- function(input, output, session) {
       theme(
         legend.position = "bottom",
         legend.text = element_text(size = 12),
-        plot.title = element_text(hjust = -0.15, size = 15, face = "bold"),
+        plot.title = element_text(hjust = 0, size = 15, face = "bold"),
         axis.text.y = element_text(size = 12, vjust = 0.5, hjust = 0.5),
         axis.text.x = element_text(size = 12, vjust = 0.5, hjust = 0.5),
         axis.title.x = element_text(size = 12),
